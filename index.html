@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" ref="https://fonts.googleapis.com/css2?family=Macondo&family=Open+Sans&family=Roboto&display=swap" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Phynix Comics</title>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#phxNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="phxNavbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg navIcon"></i>Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html"><i class="fa fa-info fa-lg navIcon"></i>About</a></li>
+                    <li class="nav-brand"><a href="#"><img src="img/phxLogo.png" height="40" id="logo" alt="mini logo" /></a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html"><i class="fa fa-address-card fa-lg navIcon"></i>Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-check-square fa-lg navIcon"></i>Pull Lists</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                    <img src="img/phxLogoShadow.png" class="img-fluid" alt="company logo" />
+                </div>
+                <div class="col text-center align-self-center">
+                    <h1>Welcome to Phynix Comics!</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3>Phynix Comics</h3>
+                <p>Phynix Comics is your locally owned comic book retailer! We offer one of the most expansive varieties of comics, both new and old for everyone to enjoy.  Whether you're looking for the newest DC superhero battle, the oldest Marvel introduction, or something indie you'll be sure to find something.</p>
+                <p>Who knows maybe you'll pick up a new series!</p>
+            </div>
+            <div class="col-4 mx-auto">
+                <div id="comicsCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#comicsCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#comicsCarousel" data-slide-to="1"></li>
+                      <li data-target="#comicsCarousel" data-slide-to="2"></li>
+                      <li data-target="#comicsCarousel" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <a href="https://www.dccomics.com/comics/justice-league-infinity-2021/justice-league-infinity-1"><img src="img/justice-league.jpg" class="d-block w-100" alt="Justice Leauge Infinity #1 cover"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Justice League Infinity #1</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="https://www.marvel.com/comics/issue/6951/avengers_1963_1"><img src="img/avengers.jpg" class="d-block w-100" alt="Avengers #1 cover"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Avengers #1</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="https://imagecomics.com/comics/releases/spawn-1"><img src="img/spawn.jpg" class="d-block w-100" alt="Spawn #1 cover"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Spawn #1</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="https://imagecomics.com/comics/releases/stray-dogs-1"><img src="img/stray-dogs.jpg" class="d-block w-100" alt="Stray Dogs #1 cover"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Stray Dogs #1</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#comicsCarousel" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#comicsCarousel" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+            </div>
+            <div class="col">
+                <h3>Look Inside</h3>
+                <p>You will find no question unanswerable and no staff member too busy to have a lively discussion with you on any superhero topic. Our mission is to offer the best comic book shopping experience possible from the moment you walk into our store. Whether you are looking to add to your collection, find the perfect gift for a friend, or want to start your adventure into the world of comics, Phynix Comics is the perfect place for you.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h5>Socials</h5>
+                    <a class="btn btn-social-icon btn-amazon" href="http://www.amazon.com"><i class="fa fa-amazon fa-lg"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com"><i class="fa fa-facebook fa-lg"></i></a>
+                    <a class="btn btn-social-icon btn-foursquare" href="http://www.foursquare.com"><i class="fa fa-foursquare fa-lg"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://www.google.com"><i class="fa fa-google fa-lg"></i></a>
+                    <br />
+                    <a class="btn btn-social-icon btn-instagram" href="http://www.instagram.com"><i class="fa fa-instagram fa-lg"></i></a>
+                    <a class="btn btn-social-icon btn-reddit" href="http://www.reddit.com"><i class="fa fa-reddit fa-lg"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://www.twitter.com"><i class="fa fa-twitter fa-lg"></i></a>
+                    <a class="btn btn-social-icon btn-yelp" href="http://www.yelp.com"><i class="fa fa-yelp fa-lg"></i></a>
+                </div>
+                <div class="col-6 text-right">
+                    <h5>Contact Us</h5>
+                    <a href="tel:+12345678910"><i class="fa fa-phone fa-lg">1-234-567-8910</i></a><br />
+                    <a href="mailto:contactus@phynixcomics.com"><i class="fa fa-envelope"></i>contactus@phynixcomics.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
