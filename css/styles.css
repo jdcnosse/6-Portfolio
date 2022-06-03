@@ -4,6 +4,11 @@
     text-shadow: 2px 2px;
 }
 
+iframe {
+    display: block;
+    border-style: none;
+}
+
 body {
     background-color: grey;
 }
