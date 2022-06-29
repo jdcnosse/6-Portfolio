@@ -27,11 +27,11 @@
             </button>
             <div class="collapse navbar-collapse" id="phxNavbar">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg navIcon"></i>Home</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-info fa-lg navIcon"></i>About</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg navIcon"></i>Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html"><i class="fa fa-info fa-lg navIcon"></i>About</a></li>
                     <li class="nav-brand"><a href="#"><img src="img/phxLogo.png" height="40" id="logo" alt="mini logo" /></a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html"><i class="fa fa-address-card fa-lg navIcon"></i>Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="pull.html"><i class="fa fa-check-square fa-lg navIcon"></i>Pull Lists</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-check-square fa-lg navIcon"></i>Pull Lists</a></li>
                 </ul>
             </div>
         </div>
@@ -43,7 +43,7 @@
                 <div class="col-4 col-sm-3 col-md-2 align-self-center">
                     <img src="img/phxLogoShadow.png" class="img-fluid" alt="company logo" />
                 </div>
-                <div class="col text-center align-self-center text-white">
+                <div class="col text-center align-self-center">
                     <h1>Welcome to Phynix Comics!</h1>
                 </div>
             </div>
@@ -55,19 +55,53 @@
             <div class="col">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item active">About</li>
+                    <li class="breadcrumb-item active">Pull List Form</li>
                 </ol>
-                <h2>About Us</h2>
-                <hr />
             </div>
         </div>
-        <div class="row">
-            <div class="col bg-white border border-dark rounded-lg">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt tortor aliquam nulla facilisi. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut. Laoreet id donec ultrices tincidunt arcu non. Ac turpis egestas integer eget aliquet nibh. A condimentum vitae sapien pellentesque habitant morbi tristique senectus. Varius morbi enim nunc faucibus a pellentesque sit amet porttitor. Porttitor massa id neque aliquam vestibulum morbi blandit. Sit amet aliquam id diam maecenas ultricies mi eget mauris. Congue nisi vitae suscipit tellus mauris a diam maecenas sed. Vestibulum morbi blandit cursus risus at ultrices. Tempor orci eu lobortis elementum. Viverra justo nec ultrices dui sapien eget mi. Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Sit amet mattis vulputate enim nulla aliquet porttitor lacus luctus. Dui ut ornare lectus sit.</p>
-
-                <p>Sed felis eget velit aliquet sagittis id. Leo a diam sollicitudin tempor id eu nisl. Ipsum consequat nisl vel pretium lectus quam id. In nibh mauris cursus mattis. Tellus mauris a diam maecenas sed enim ut sem viverra. Lectus mauris ultrices eros in cursus turpis massa. Lacus laoreet non curabitur gravida arcu ac. Ut lectus arcu bibendum at. Vitae et leo duis ut diam quam nulla porttitor. Elit scelerisque mauris pellentesque pulvinar. Ut placerat orci nulla pellentesque dignissim enim sit amet. Sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus. Scelerisque purus semper eget duis at tellus at urna. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt. Urna neque viverra justo nec ultrices dui sapien. Ac feugiat sed lectus vestibulum mattis ullamcorper velit. Laoreet sit amet cursus sit amet dictum sit amet justo.</p>
-
-                <p>Sed viverra tellus in hac habitasse platea dictumst. Ut sem viverra aliquet eget sit amet tellus cras. Magna etiam tempor orci eu lobortis elementum nibh tellus. Quis risus sed vulputate odio ut. Odio ut sem nulla pharetra diam sit amet. Quis hendrerit dolor magna eget. Pretium quam vulputate dignissim suspendisse in est ante. Netus et malesuada fames ac turpis egestas. Integer enim neque volutpat ac tincidunt vitae semper quis lectus. Nunc scelerisque viverra mauris in aliquam sem fringilla. Eget magna fermentum iaculis eu. Vitae suscipit tellus mauris a diam maecenas. Leo in vitae turpis massa sed elementum tempus egestas. Placerat in egestas erat imperdiet sed euismod nisi porta. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Elit sed vulputate mi sit. Integer feugiat scelerisque varius morbi. Pellentesque adipiscing commodo elit at imperdiet dui accumsan sit amet.</p>
+        <div class="row row-content">
+            <div class="col-12">
+                <h2>Pull List Form</h2>
+                <hr />
+            </div>
+            <div class="col-md-10">
+                <form>
+                    <div class="form-group row">
+                        <label for="firstName" class="col-md-2 col-form-label bg-white">First Name</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastName" class="col-md-2 col-form-label bg-white">Last Name</label>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="phoneNum" class="col-md-2 col-form-label bg-white">Phone Number</label>
+                        <div class="col-md-6">
+                            <input type="tel" class="form-control" id="phoneNum" name="phoneNum" placeholder="xxx-xxx-xxxx" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="email" class="col-md-2 col-form-label bg-white">Email</label>
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="pullList" class="col-md-2 col-form-label bg-white">Series & Issue #</label>
+                        <div class="col-md-6">
+                            <textarea class="form-control" id="pullList" name="pullList" rows="10"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-light">Submit Request</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
